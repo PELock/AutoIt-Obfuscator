@@ -167,7 +167,7 @@ Or add this entry:
 
 directly to your `composer.json` in require section.
 
-Installation package is available at https://packagist.org/packages/pelock/autoit-decompiler
+Installation package is available at https://packagist.org/packages/pelock/autoit-obfuscator
 
 ####Example of how obfuscate AutoIt script with default options
 
