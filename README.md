@@ -510,6 +510,10 @@ AutoIt Obfuscator comes also with full GUI version for Windows:
 
 ![AutoIt Obfuscator Windows Client](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-1-1-main.png)
 
+Obfuscation options:
+
+![AutoIt Obfuscator Options](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-1-1-options.png)
+
 You can download it at:
 
 https://www.pelock.com/products/autoit-obfuscator/download
