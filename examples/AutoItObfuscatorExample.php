@@ -5,7 +5,7 @@
  *
  * In this example we will obfuscate sample source with default options.
  *
- * Version        : v1.1
+ * Version        : v1.0
  * Language       : PHP
  * Author         : Bartosz Wójcik
  * Web page       : https://www.pelock.com
@@ -76,11 +76,6 @@ $myAutoItObfuscator->renameFunctions = true;
 //  rename function names in function calls
 // 
 $myAutoItObfuscator->renameFunctionCalls = true;
-
-// 
-//  shuffle functions order in the output source
-// 
-$myAutoItObfuscator->shuffleFunctions = true;
 
 // 
 //  resolve WinApi constants to numerical values

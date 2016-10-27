@@ -5,7 +5,7 @@
  *
  * In this example we will verify our activation key status.
  *
- * Version        : v1.1
+ * Version        : v1.0
  * Language       : PHP
  * Author         : Bartosz Wójcik
  * Web page       : https://www.pelock.com
