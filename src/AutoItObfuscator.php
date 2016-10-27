@@ -2,7 +2,7 @@
 /******************************************************************************
  * AutoIt Obfuscator WebApi interface
  *
- * Version        : v1.0
+ * Version        : v1.1
  * Language       : PHP
  * Author         : Bartosz Wójcik
  * Web page       : https://www.pelock.com
@@ -72,6 +72,11 @@ class AutoItObfuscator
 	 * @var bool rename function names in function calls
 	 */
 	public $renameFunctionCalls = false;
+
+	/**
+	 * @var bool shuffle functions order in the output source
+	 */
+	public $shuffleFunctions = false;
 
 	/**
 	 * @var bool resolve WinApi constants to numerical values
@@ -220,6 +225,7 @@ class AutoItObfuscator
 		if ($this->renameVariables) $ParamsArray["rename_variables"] = "1";
 		if ($this->renameFunctions) $ParamsArray["rename_functions"] = "1";
 		if ($this->renameFunctionCalls) $ParamsArray["rename_function_calls"] = "1";
+		if ($this->shuffleFunctions) $ParamsArray["shuffle_functions"] = "1";
 		if ($this->resolveConstants) $ParamsArray["resolve_const"] = "1";
 		if ($this->cryptNumbers) $ParamsArray["crypt_numbers"] = "1";
 		if ($this->splitStrings) $ParamsArray["split_strings"] = "1";

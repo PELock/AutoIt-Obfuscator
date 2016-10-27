@@ -18,116 +18,194 @@ obfuscation strategies to protect the real meaning of your AutoIt source code.
 ###AutoIt script example before obfuscation 
 
 ```autoit
-ConsoleWrite("Hello World!")
+#include <MsgBoxConstants.au3>
+
+Example()
+
+Func Example()
+    MsgBox($MB_SYSTEMMODAL, "AutoIt Obfuscator", "Hello World!")
+EndFunc   ;==>Example
 ```
 
 ###After obfuscation
 
 ```autoit
-Global $var_382 = 225
-Global $VWUKTOPAG = 10
-#OnAutoItStartRegister "func_1675"
-Global $FBWUYAT_OSPPKEBV = Asc("l")
-Global $WnCx4HPC0ea312__qu_T_3[2][16] = [[1540386418, 74, 52187, 23787, 15150, 224, 789929744, 10864, 46, 57292, 240, 36153703,  _
-225, 225, 71, 201],  _
-[1182170127, 61672, 15345, 37, 43206, 93, 67, 60, 56413, 133, 48731, 50442, 85, 40037,  _
-15258, 13131]]
-Global $var_2697 = Asc("C")
-Global $var_502[15] = [776861442, 50520, 914414646, 60003, 153, 152, 57581, 41, 252554063, 1178542709, 1790,  _
-1503905662, 10736, 118, 43596]
-#OnAutoItStartRegister "IdybyqbmmzEwhkdbwcylFunc"
-Global $dQtfnuoLbawdebyaWhfqizr = Lekpwpih
-Global $dMokwkydCxvjc = BitAND
-Global $nWhzikjjrw = NabjqvtehhFunc
-Global $_TJYsFyGFpg_A_2oUnB = uBG_WvHge_KoF_kUIKRuBDkE_
-Global $var_3477 = RryazhTnrreatVrstjczn
-Global $3_JqevgUiOsgQ6AIN3YX_F7X_ = StringReverse
-Global $mIdavvqh = BitXOR
-Global $tQcjmm = ConsoleWrite
-Global $var_1580 = func_3695
-Global $var_3104 = _ArrayToString
-Global $8PV9OzZiO__Uv_5i = func_182
-Global $var_2267 = BitNOT
-Global $var_1232 = AprrvxelFdkqnecwUytafbsij
-Global $IYHEMOSVL_NIVAI = ChrW
-Global $var_1660 = StringTrimRight
-Global $ZJLLAEEQ = JwctaHcLcuhgwH_lpM_Siu_
+Global Const $var_1043[2][6] = [[65183, 162, 43226], [47720, 201908501, 199, 98, 5467, 116939692]]
+#OnAutoItStartRegister "EsqionxreEwvjrdtVthapfold"
+Global $pGjspnYdnuqqrvf = Asc("Q")
+Global $g_tBvtecoqk = Asc("O")
+Global $_9nnlxJGW4ZWLLInz_Dx_Z_ = Asc("7")
+Global $var_1502 = 40161
+Global Const $HKTDBQX_ONDCNXN[2][15] = [[225, 52067, 940262642, 135, 60289, 98, 1889467718, 19, 2027461551, 685680576, 2003511795,  _
+215, 2095030694, 33403, 80],  _
+[38177, 43348, 57322, 28997, 502, 811828111, 598503755, 1512705422, 31963, 53921,  _
+1159375109, 137]]
+Global Const $Tpwix3eFS_n_lY_iH = 134
+#OnAutoItStartRegister "TjxmyzxrdaFunc"
+Global $H9U2j_zVV74ALk9fVR_G = Asc("t")
+Global Const $var_570[3] = [485744289, 179601303, 139]
+Global Const $aGymkispfwPkwrqRnucttlk[14] = [42555, 1915848226, 1927057066, 10735, 52673, 1291937098, 14054, 171, 20, 1527616065,  _
+68, 884266351, 216, 447999259]
+#OnAutoItStartRegister "func_2900"
+Global Const $BeB0xjcAEa_jrHf1_0TZu_[2][11] = [[130, 5975, 58957, 3731, 39], [5, 41960, 31868, 60346, 477376462, 10, 6277, 1906895509, 202, 946525159, 7231]]
+Global $var_3791[2][3] = [[1955785738, 30495], [17358, 28275, 1655039001]]
+Global $var_1560[9] = [139245900, 895559182, 951213844, 184, 1414311984, 1934852618, 13217863, 26790, 86]
+Global $UFVBJH_YOHFK_JDJFEXNTLP[8] = [807343992, 114, 96, 54241, 52109, 36561, 50382, 24373]
+Global Const $var_3359[4] = [35220, 795270257, 60945, 876796546]
+Global $qY_BJgtJ_lsa9R_r = BitOR
+Global $var_3137 = MsgBox
+Global $tSmggmxhnYstnaf = hzPDg_CPtFEFNOY_k_JL
+Global $JNONS_PKDVO_IVQZAQ = BitRotate
+Global $pJnomhikkl = Sqrt
+Global $var_939 = VnekhzNlmioFunc
+Global $g_eAofghw = Int
+Global $g_dTdeauptilvOapvtuloRqomqdf = BitAND
+Global $var_3553 = dL_KKJTIZ_VTITDzJzzbqr_
+Global $var_2915 = StringTrimRight
+Global $g_mLeumiBspriiyj = TtutybbiCmkdvdFunc
+Global $CTNQNGLF_NFYVUS_LZGTP = StringReverse
+Global $var_1300 = Chr
+Global $pCr_jIT_0K8y_GEM = BitNOT
+Global $3s8k__AZje9uD8C_ = _ArrayToString
+Global $fPiazcdqnZlmpfluhFsrjynzgj = UishondgfQuwujFunc
+Global $var_2299 = Jkxnkpxp
+Global $KQGMBCOVB = UgZ___sFusnLijH
+Global $var_675 = Yv_UxOVshIRn_rnvNIeL_
+Global $wQj2LVwcTwQ_d5QG_ZJ_dp_ = ChrW
+Global $hRhohbuZotakvuInkgkdrni = func_3967
+Global $var_202 = QqorzleMutbosfoFunc
+Global $tagUmennkn = BitXOR
+Global $_A077_GHVrj7T2G8L = mi__pwyTQX_EIrvGGRq
+Global $__TNG_3v7r3q7P_7ufycipz = BovkbmXobrrezFunc
 #include <Array.au3>
-$tQcjmm($3_JqevgUiOsgQ6AIN3YX_F7X_($var_1580(($_wAv_m9f__FXOFTwxBqwX79 < $WRFGDNBJCT_XUFOVVGTR ? 151 : $var_3477()), $var_502[8],  _
-($var_2697 >= $WnCx4HPC0ea312__qu_T_3[1][2] ? $var_382 : 107), $FBWUYAT_OSPPKEBV)) & $var_1660($_TJYsFyGFpg_A_2oUnB(($VWUKTOPAG >= $var_3477() ? $FBWUYAT_OSPPKEBV : 216), $var_382),  _
-$var_2267(-($FBWUYAT_OSPPKEBV < $8PV9OzZiO__Uv_5i() ? 7 : $WRFGDNBJCT_XUFOVVGTR))) & $3_JqevgUiOsgQ6AIN3YX_F7X_($var_1232($dQtfnuoLbawdebyaWhfqizr(), $_wAv_m9f__FXOFTwxBqwX79, 1798366573)) & $var_1660($ZJLLAEEQ($dQtfnuoLbawdebyaWhfqizr(), $WRFGDNBJCT_XUFOVVGTR, ($WnCx4HPC0ea312__qu_T_3[1][6] > $var_502[7] ? 198565640 : $var_3477())),  _
-$mIdavvqh(968160980, $WRFGDNBJCT_XUFOVVGTR)))
-Func AprrvxelFdkqnecwUytafbsij($PYLAO_EDFNQKEVTT_GBNZEGWVBB, $IAHTBPINLF_LZPPI_IKLEMVZXAS, $eLnhiqmiOhxcsbkjcKnhua)
-    Local $TISRVTYMCY_UTCRMXDAQU_CRHFBPEL[($VWUKTOPAG >= $var_382 ? $var_502[2] : 1)] = [($WnCx4HPC0ea312__qu_T_3[0][0] <= $var_382 ? $var_382 : 0xC3F2)]
-    For $eNfcgzp = 0 To 0
-        $var_3853 = $TISRVTYMCY_UTCRMXDAQU_CRHFBPEL[$eNfcgzp]
-        $var_3853 -= $eNfcgzp
-        $var_3853 = $mIdavvqh($var_3853, ($VWUKTOPAG >= $nWhzikjjrw() ? $var_502[6] : 0xEF06))
-        $var_3853 += ($var_382 >= $WRFGDNBJCT_XUFOVVGTR ? $_wAv_m9f__FXOFTwxBqwX79 : 0xD378)
-        $var_3853 = $dMokwkydCxvjc($var_3853, ($8PV9OzZiO__Uv_5i() >= $WRFGDNBJCT_XUFOVVGTR ? $FBWUYAT_OSPPKEBV : 65535))
-        $TISRVTYMCY_UTCRMXDAQU_CRHFBPEL[$eNfcgzp] = $IYHEMOSVL_NIVAI($var_3853)
+Global $Foewj59PFhL__7_Rf_K1USOq = 11
+#include <MsgBoxConstants.au3>
+$var_939()
+Func QqorzleMutbosfoFunc($var_3666, $LDBMQFWTK_QTMCL)
+    Local $mFetzspk[9] = [0x0057, 0x0074, 0x005D, 0x0072, 0x0071, 0x0076, 0x0074, 0x0086, 0x0069]
+    For $ODSUC = 0 To 8
+        $WANSVA = $mFetzspk[$ODSUC]
+        $WANSVA -= $ODSUC
+        $WANSVA = $tagUmennkn($WANSVA, $ODSUC)
+        $WANSVA = $g_dTdeauptilvOapvtuloRqomqdf($WANSVA, 65535)
+        $mFetzspk[$ODSUC] = $wQj2LVwcTwQ_d5QG_ZJ_dp_($WANSVA)
     Next
-    Local $var_2915 = $var_3104($TISRVTYMCY_UTCRMXDAQU_CRHFBPEL, "")
-    Return $var_2915
+    Return $3s8k__AZje9uD8C_($mFetzspk, "")
 EndFunc
-Func JwctaHcLcuhgwH_lpM_Siu_($aAlahprKxwdhaoc, $var_601, $sCfjwvLtiqdrLgegpggt)
-    Local $JFANFJDYFI[($var_382 = $var_382 ? 5 : $_wAv_m9f__FXOFTwxBqwX79)] = [($var_2697 <= $VWUKTOPAG ? $VWUKTOPAG : 0x7A2E), 0x7A6D, ($var_382 = $var_382 ? 0x7A2F : $FBWUYAT_OSPPKEBV),  _
-($_wAv_m9f__FXOFTwxBqwX79 > $dQtfnuoLbawdebyaWhfqizr() ? 0x7A3A : $_wAv_m9f__FXOFTwxBqwX79),  _
-($var_3477() <> $var_3477() ? $VWUKTOPAG : 0x7A01)]
-    For $_drmRe331_tm6xDMY5_Q_ninv = ($WRFGDNBJCT_XUFOVVGTR <= $var_502[12] ? $FBWUYAT_OSPPKEBV : 0) To ($WRFGDNBJCT_XUFOVVGTR > $dQtfnuoLbawdebyaWhfqizr() ? 4 : $FBWUYAT_OSPPKEBV)
-        $var_3763 = $JFANFJDYFI[$_drmRe331_tm6xDMY5_Q_ninv]
-        $var_3763 = $mIdavvqh($var_3763, ($8PV9OzZiO__Uv_5i() >= $_wAv_m9f__FXOFTwxBqwX79 ? $var_3477() : 0x7A4D))
-        $var_3763 = $var_3763 + ($dQtfnuoLbawdebyaWhfqizr() <= $FBWUYAT_OSPPKEBV ? $nWhzikjjrw() : 1)
-        $var_3763 = $dMokwkydCxvjc($var_3763, 65535)
-        $JFANFJDYFI[$_drmRe331_tm6xDMY5_Q_ninv] = $IYHEMOSVL_NIVAI($var_3763)
+Func UishondgfQuwujFunc($_OAcC_SB_WyCVwVwpggO, $_U3xoOwdQR_PN_6up)
+    Local $dQiedqcocvmDxtjawizpz[10] = [0x1004, 0x5007, 0x8007, 0xF006, 0x1005, 0x6007, 0x5008, 0xC005, 0x4005, 0x7006]
+    For $jnoy2Pi9N_U_DKjw_ILRVcb_ = 0 To 9
+        $ZAIMULMVW = $dQiedqcocvmDxtjawizpz[$jnoy2Pi9N_U_DKjw_ILRVcb_]
+        $ZAIMULMVW = $JNONS_PKDVO_IVQZAQ($ZAIMULMVW, -12, ($CGLSUTO_AXDRHVIFSL_UKMIFIWRTT <= $var_570[1] ? $var_2299() : "W"))
+        $ZAIMULMVW -= $jnoy2Pi9N_U_DKjw_ILRVcb_
+        $ZAIMULMVW = $tagUmennkn($ZAIMULMVW, $jnoy2Pi9N_U_DKjw_ILRVcb_)
+        $ZAIMULMVW = $g_dTdeauptilvOapvtuloRqomqdf($ZAIMULMVW, 65535)
+        $dQiedqcocvmDxtjawizpz[$jnoy2Pi9N_U_DKjw_ILRVcb_] = $wQj2LVwcTwQ_d5QG_ZJ_dp_($ZAIMULMVW)
     Next
-    $JFANFJDYFI = $var_3104($JFANFJDYFI, "")
-    Return $JFANFJDYFI
+    $dQiedqcocvmDxtjawizpz = $3s8k__AZje9uD8C_($dQiedqcocvmDxtjawizpz, ($_9nnlxJGW4ZWLLInz_Dx_Z_ < $var_99 ? "" : $var_2299()))
+    Return $dQiedqcocvmDxtjawizpz
 EndFunc
-Func uBG_WvHge_KoF_kUIKRuBDkE_($YGWXMAHO_KBAAGVPNLL, $var_2579)
-    Local $EIIZXLE_KVDXFPWV_PSBJOYZ[($FBWUYAT_OSPPKEBV > $var_2697 ? 13 : $var_3477())] = [0xFF93, 0xFF93, ($var_502[4] >= $nWhzikjjrw() ? $var_502[8] : 0xFF90), ($var_3477() < $8PV9OzZiO__Uv_5i() ? 0xFFDF : $nWhzikjjrw()),  _
-($var_502[1] > $FBWUYAT_OSPPKEBV ? 0xFFA8 : $_wAv_m9f__FXOFTwxBqwX79), ($dQtfnuoLbawdebyaWhfqizr() < $var_382 ? 0xFF90 : $FBWUYAT_OSPPKEBV),  _
-($var_502[13] <= $var_2697 ? $var_2697 : 0xFF8D), ($_wAv_m9f__FXOFTwxBqwX79 <> $_wAv_m9f__FXOFTwxBqwX79 ? $8PV9OzZiO__Uv_5i() : 0xFFA7),  _
-($WRFGDNBJCT_XUFOVVGTR <= $FBWUYAT_OSPPKEBV ? $WnCx4HPC0ea312__qu_T_3[0][1] : 0xFFAE),  _
-($var_2697 < $8PV9OzZiO__Uv_5i() ? 0xFFAF : $dQtfnuoLbawdebyaWhfqizr()), ($8PV9OzZiO__Uv_5i() < $_wAv_m9f__FXOFTwxBqwX79 ? 0xFFB5 : $var_382),  _
-($WRFGDNBJCT_XUFOVVGTR <= $WnCx4HPC0ea312__qu_T_3[1][13] ? $var_2697 : 0xFFBA), ($WnCx4HPC0ea312__qu_T_3[0][10] <= $var_382 ? $dQtfnuoLbawdebyaWhfqizr() : 0xFFA7)]
-    For $eDqcuhsgcxvBmwgohz = 0 To ($WRFGDNBJCT_XUFOVVGTR > $var_2697 ? 12 : $dQtfnuoLbawdebyaWhfqizr())
-        $DNMEK_IEDXUB_ZZOIANETRA = $EIIZXLE_KVDXFPWV_PSBJOYZ[$eDqcuhsgcxvBmwgohz]
-        $DNMEK_IEDXUB_ZZOIANETRA = $var_2267($DNMEK_IEDXUB_ZZOIANETRA)
-        $DNMEK_IEDXUB_ZZOIANETRA = $dMokwkydCxvjc($DNMEK_IEDXUB_ZZOIANETRA, ($8PV9OzZiO__Uv_5i() <= $var_3477() ? $var_3477() : 0xFFFF))
-        $EIIZXLE_KVDXFPWV_PSBJOYZ[$eDqcuhsgcxvBmwgohz] = $IYHEMOSVL_NIVAI($DNMEK_IEDXUB_ZZOIANETRA)
+Func dL_KKJTIZ_VTITDzJzzbqr_($YKCUXEW_UNOEM, $VFWZXLJZZR_BRRGZIHR_SMRTPOVGT)
+    Local $var_1686[1] = [0x0044]
+    For $var_3453 = 0 To 0
+        $var_1208 = $var_1686[$var_3453]
+        $var_1208 -= $var_3453
+        $var_1208 = $tagUmennkn($var_1208, $var_3453)
+        $var_1208 = $g_dTdeauptilvOapvtuloRqomqdf($var_1208, 65535)
+        $var_1686[$var_3453] = $wQj2LVwcTwQ_d5QG_ZJ_dp_($var_1208)
     Next
-    Local $CWHGTCKSN = $var_3104($EIIZXLE_KVDXFPWV_PSBJOYZ, "")
-    Return $CWHGTCKSN
+    $var_1686 = $3s8k__AZje9uD8C_($var_1686, ($g_tBvtecoqk >= $pMmoolab ? $var_1560[1] : ""))
+    Return $var_1686
 EndFunc
-Func func_3695($M2ia21BGv__6rm2rQE1f, $RWXBFJW_ZCPPAAUO, $DWVTV, $_heJ1_iJlHN_09pGG)
-    Local $nPgfsdlQdrweuxmt[($FBWUYAT_OSPPKEBV >= $WRFGDNBJCT_XUFOVVGTR ? $var_502[6] : 2)] = [($var_382 > $_wAv_m9f__FXOFTwxBqwX79 ? 0x13EA : $dQtfnuoLbawdebyaWhfqizr()), ($WRFGDNBJCT_XUFOVVGTR > $var_2697 ? 0x13C6 : $8PV9OzZiO__Uv_5i())]
-    For $QDLGH = ($var_502[9] > $VWUKTOPAG ? 0 : $dQtfnuoLbawdebyaWhfqizr()) To ($dQtfnuoLbawdebyaWhfqizr() >= $var_502[11] ? $var_3477() : 1)
-        $var_2664 = $nPgfsdlQdrweuxmt[$QDLGH]
-        $var_2664 = $mIdavvqh($var_2664, ($var_382 > $dQtfnuoLbawdebyaWhfqizr() ? 0x138F : $FBWUYAT_OSPPKEBV))
-        $var_2664 -= $QDLGH
-        $nPgfsdlQdrweuxmt[$QDLGH] = $IYHEMOSVL_NIVAI($dMokwkydCxvjc($var_2664, ($VWUKTOPAG < $WnCx4HPC0ea312__qu_T_3[0][4] ? 65535 : $var_2697)))
+Func hzPDg_CPtFEFNOY_k_JL($JWORV, $CDPNS_QCHXLS)
+    Local $var_919[2] = [0x0020, 0x0063]
+    For $vJclbkoiaqrVihqzoajtiOxihkirs = 0 To 1
+        $mVrynr = $var_919[$vJclbkoiaqrVihqzoajtiOxihkirs]
+        $mVrynr = $mVrynr + 1
+        $var_919[$vJclbkoiaqrVihqzoajtiOxihkirs] = $wQj2LVwcTwQ_d5QG_ZJ_dp_($g_dTdeauptilvOapvtuloRqomqdf($mVrynr, 0xFFFF))
     Next
-    $nPgfsdlQdrweuxmt = $var_3104($nPgfsdlQdrweuxmt, "")
-    Return $nPgfsdlQdrweuxmt
+    $var_919 = $3s8k__AZje9uD8C_($var_919, ($var_570[2] > $Tpwix3eFS_n_lY_iH ? "" : $var_675()))
+    Return $var_919
 EndFunc
-Func IdybyqbmmzEwhkdbwcylFunc()
-    Global $WRFGDNBJCT_XUFOVVGTR = 968160983
+Func VnekhzNlmioFunc()
+    $var_3137(4096, $var_2915($fPiazcdqnZlmpfluhFsrjynzgj($var_570[0], 1082367128), 2 * 2) & $var_2915($__TNG_3v7r3q7P_7ufycipz($var_1043[1][5], $H9U2j_zVV74ALk9fVR_G), 1 * 1) & $var_2915($_A077_GHVrj7T2G8L($BeB0xjcAEa_jrHf1_0TZu_[1][10], $H9U2j_zVV74ALk9fVR_G, 2022612374, 169999006, $_9nnlxJGW4ZWLLInz_Dx_Z_),  _
+$JNONS_PKDVO_IVQZAQ(8388608, $Foewj59PFhL__7_Rf_K1USOq, $var_3553($aGymkispfwPkwrqRnucttlk[2], $var_99))) & $var_2915($hRhohbuZotakvuInkgkdrni($var_675(), $UFVBJH_YOHFK_JDJFEXNTLP[5], $var_3791[1][1], 5360, $var_1560[0]),  _
+$g_eAofghw($pJnomhikkl(49))),  _
+$CTNQNGLF_NFYVUS_LZGTP($g_mLeumiBspriiyj($H9U2j_zVV74ALk9fVR_G, $pGjspnYdnuqqrvf, $Tpwix3eFS_n_lY_iH, $var_570[1], $pMmoolab)) & $var_2915($var_202($Tpwix3eFS_n_lY_iH, $var_1043[0][2]), $qY_BJgtJ_lsa9R_r(0, 8)) & $CTNQNGLF_NFYVUS_LZGTP($KQGMBCOVB(153151886)) & $CTNQNGLF_NFYVUS_LZGTP($tSmggmxhnYstnaf($var_99, $var_99)))
 EndFunc
-Func NabjqvtehhFunc()
-    return 609141471
+Func UgZ___sFusnLijH($CZSYJTVTF_OZJMCVPF)
+    Local $FEqSoQ_TW3__xPgPUT[3] = [0xAC89, 0xACEA, 0xACBB]
+    For $tagMlnauatpgMiiilf = 0 To 2
+        $HZOWV_KIGVO_KELESS = $FEqSoQ_TW3__xPgPUT[$tagMlnauatpgMiiilf]
+        $HZOWV_KIGVO_KELESS += 0x5A37
+        $HZOWV_KIGVO_KELESS = $tagUmennkn($HZOWV_KIGVO_KELESS, $tagMlnauatpgMiiilf)
+        $HZOWV_KIGVO_KELESS = $JNONS_PKDVO_IVQZAQ($HZOWV_KIGVO_KELESS, 12, "W")
+        $FEqSoQ_TW3__xPgPUT[$tagMlnauatpgMiiilf] = $wQj2LVwcTwQ_d5QG_ZJ_dp_($g_dTdeauptilvOapvtuloRqomqdf($HZOWV_KIGVO_KELESS, 65535))
+    Next
+    $FEqSoQ_TW3__xPgPUT = $3s8k__AZje9uD8C_($FEqSoQ_TW3__xPgPUT, ($var_3359[1] <= $pGjspnYdnuqqrvf ? $var_1502 : ""))
+    Return $FEqSoQ_TW3__xPgPUT
 EndFunc
-Func func_1675()
-    Global $_wAv_m9f__FXOFTwxBqwX79 = 185
+Func ZhmqeualLetahwavSugsnbhu()
+    return 6634
 EndFunc
-Func Lekpwpih()
-    return 134
+Func BovkbmXobrrezFunc($LKFWGGJDR_ATSBIUNV_QCFXMPVBH, $g_eQfvlgeyfnQwxwv)
+    Local $RVGXYYO_MFDYRCDE[5] = [0x0020, 0x004E, 0x0060, 0x0065, 0x0053]
+    For $var_127 = 0 To 4
+        $var_1296 = $RVGXYYO_MFDYRCDE[$var_127]
+        $var_1296 = $tagUmennkn($var_1296, $var_127)
+        $var_1296 = $g_dTdeauptilvOapvtuloRqomqdf($var_1296, 65535)
+        $RVGXYYO_MFDYRCDE[$var_127] = $wQj2LVwcTwQ_d5QG_ZJ_dp_($var_1296)
+    Next
+    Local $UNESRZZ_AKTQSNSWNX = $3s8k__AZje9uD8C_($RVGXYYO_MFDYRCDE, "")
+    Return $UNESRZZ_AKTQSNSWNX
 EndFunc
-Func func_182()
-    return 169
+Func Jkxnkpxp()
+    return 495764533
 EndFunc
-Func RryazhTnrreatVrstjczn()
-    return 158
+Func EsqionxreEwvjrdtVthapfold()
+    Global Const $pMmoolab = 41462
+EndFunc
+Func func_3967($var_3474, $var_802, $var_4083, $var_1167, $CMCWUW)
+    Local $mPmrVDGTHSteVk_v__y_h6[10] = [0x0075, 0x0070, 0x0073, 0x0071, 0x0047, 0x004F, 0x0045, 0x0068, 0x006A, 0x0076]
+    For $fHnvbmWhhcu = 0 To 9
+        $idOlkzqlmUhmthuv = $mPmrVDGTHSteVk_v__y_h6[$fHnvbmWhhcu]
+        $idOlkzqlmUhmthuv = $idOlkzqlmUhmthuv - 1
+        $mPmrVDGTHSteVk_v__y_h6[$fHnvbmWhhcu] = $wQj2LVwcTwQ_d5QG_ZJ_dp_($g_dTdeauptilvOapvtuloRqomqdf($idOlkzqlmUhmthuv, 0xFFFF))
+    Next
+    $mPmrVDGTHSteVk_v__y_h6 = $3s8k__AZje9uD8C_($mPmrVDGTHSteVk_v__y_h6, "")
+    Return $mPmrVDGTHSteVk_v__y_h6
+EndFunc
+Func func_2900()
+    Global Const $var_99 = 1050370420
+EndFunc
+Func Yv_UxOVshIRn_rnvNIeL_()
+    return 1148247495
+EndFunc
+Func mi__pwyTQX_EIrvGGRq($iWrvexrbwbNzjwqvd, $RRCAT_ROYAZSQLLJ_KTFMO, $DELVEYYQL, $KNSYR, $var_727)
+    Local $REZQI_SYHTPAC_BVLLITKU[8] = [0x5F5B, 0x5F5A, 0x5F52, 0x5F51, 0x5F41, 0x5F57, 0xDF4A, 0x5F4C]
+    For $var_1099 = 0 To 7
+        $g_vPemrrhmwka = $REZQI_SYHTPAC_BVLLITKU[$var_1099]
+        $g_vPemrrhmwka -= 0xDF21
+        $g_vPemrrhmwka = $JNONS_PKDVO_IVQZAQ($g_vPemrrhmwka, 1, $var_1300(87))
+        $REZQI_SYHTPAC_BVLLITKU[$var_1099] = $wQj2LVwcTwQ_d5QG_ZJ_dp_($g_dTdeauptilvOapvtuloRqomqdf($g_vPemrrhmwka, 65535))
+    Next
+    Local $SDLYJVM_JTKKF_DIPSCXQD = $3s8k__AZje9uD8C_($REZQI_SYHTPAC_BVLLITKU, "")
+    Return $SDLYJVM_JTKKF_DIPSCXQD
+EndFunc
+Func TtutybbiCmkdvdFunc($idWxxqniJhmthgPgedrsb, $var_986, $AOIAACLWV_WCQQOLG_VBIMTJ, $JKSAUTK_WELJBRIQ, $MKOJEM_VFYFKYPR_LXMEHM)
+    Local $ZSYXH_VNEKYHF[6] = [0x21A5, 0x2156, 0x2159, 0x2159, 0x2160, 0x217D]
+    For $EDANPVVWV_BIKQPN_BONUGLTXGC = 0 To 5
+        $dUpoadRuzyixhOfvtaez = $ZSYXH_VNEKYHF[$EDANPVVWV_BIKQPN_BONUGLTXGC]
+        $dUpoadRuzyixhOfvtaez = $pCr_jIT_0K8y_GEM($dUpoadRuzyixhOfvtaez)
+        $dUpoadRuzyixhOfvtaez -= 0xDE3A
+        $dUpoadRuzyixhOfvtaez = $g_dTdeauptilvOapvtuloRqomqdf($dUpoadRuzyixhOfvtaez, 0xFFFF)
+        $ZSYXH_VNEKYHF[$EDANPVVWV_BIKQPN_BONUGLTXGC] = $wQj2LVwcTwQ_d5QG_ZJ_dp_($dUpoadRuzyixhOfvtaez)
+    Next
+    Local $zQlXY6XnIaL__WYe42Te_p_ = $3s8k__AZje9uD8C_($ZSYXH_VNEKYHF, ($var_1560[7] >= $pMmoolab ? $_9nnlxJGW4ZWLLInz_Dx_Z_ : ""))
+    Return $zQlXY6XnIaL__WYe42Te_p_
+EndFunc
+Func TjxmyzxrdaFunc()
+    Global Const $CGLSUTO_AXDRHVIFSL_UKMIFIWRTT = 783193962
 EndFunc
 ```
 
@@ -169,7 +247,7 @@ directly to your `composer.json` in require section.
 
 Installation package is available at https://packagist.org/packages/pelock/autoit-obfuscator
 
-####Example of how obfuscate AutoIt script with default options
+####Example of how to obfuscate AutoIt script with default options
 
 ```autoit
 //
@@ -232,7 +310,7 @@ else
 }
 ```
 
-####Example of how obfuscate AutoIt script using customized obfuscation strategies
+####Example of how to obfuscate AutoIt script using customized obfuscation strategies
 
 ```autoit
 //
@@ -299,6 +377,11 @@ $myAutoItObfuscator->renameFunctions = true;
 //  rename function names in function calls
 // 
 $myAutoItObfuscator->renameFunctionCalls = true;
+
+// 
+//  shuffle functions order in the output source
+// 
+$myAutoItObfuscator->shuffleFunctions = true;
 
 // 
 //  resolve WinApi constants to numerical values
@@ -425,7 +508,7 @@ https://www.pelock.com/autoit-obfuscator/
 
 AutoIt Obfuscator comes also with full GUI version for Windows:
 
-![AutoIt Obfuscator Windows Client](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-1-0-main.png)
+![AutoIt Obfuscator Windows Client](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-1-1-main.png)
 
 You can download it at:
 
@@ -433,7 +516,7 @@ https://www.pelock.com/products/autoit-obfuscator/download
 
 Installation package contains an additional command line interface:
 
-![AutoIt Obfuscator Windows Client](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-command-line-1-0.png)
+![AutoIt Obfuscator Windows Client](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-command-line-1-1.png)
  
 It is compatible with Windows (.NET) and Linux (Mono). Command line version
 can be used to integrate obfuscation into your build process or any other
