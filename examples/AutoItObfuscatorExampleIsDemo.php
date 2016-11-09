@@ -5,7 +5,7 @@
  *
  * In this example we will verify our activation key status.
  *
- * Version        : v1.0
+ * Version        : v1.2
  * Language       : PHP
  * Author         : Bartosz Wójcik
  * Web page       : https://www.pelock.com
@@ -46,7 +46,6 @@ if ($result !== false)
 	echo "Usage credits left - " . $result["credits_left"] . "<br>";
 	echo "Total usage credits - " . $result["credits_total"] . "<br>";
 	echo "Max. script size - " . $result["string_limit"] . "<br>";
-
 }
 else
 {

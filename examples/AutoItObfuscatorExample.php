@@ -5,7 +5,7 @@
  *
  * In this example we will obfuscate sample source with default options.
  *
- * Version        : v1.0
+ * Version        : v1.2
  * Language       : PHP
  * Author         : Bartosz Wójcik
  * Web page       : https://www.pelock.com
@@ -27,84 +27,90 @@ use PELock\AutoItObfuscator;
 //
 $myAutoItObfuscator = new PELock\AutoItObfuscator("ABCD-ABCD-ABCD-ABCD");
 
-// 
-//  should the source code be compressed (both input & compressed)
-// 
+//
+// should the source code be compressed (both input & compressed)
+//
 $myAutoItObfuscator->enableCompression = true;
 
-// 
-//  generate random integer values
-// 
+//
+// generate random integer values
+//
 $myAutoItObfuscator->randomIntegers = true;
 
-// 
-//  generate random value characters
-// 
+//
+// generate random value characters
+//
 $myAutoItObfuscator->randomCharacters = true;
 
-// 
-//  generate arrays with random values
-// 
+//
+// generate arrays with random values
+//
 $myAutoItObfuscator->randomArrays = true;
 
-// 
-//  generate multidimensional arrays with random values
-// 
+//
+// generate multidimensional arrays with random values
+//
 $myAutoItObfuscator->randomArraysMultidimensional = true;
 
-// 
-//  generate functions that returns random values
-// 
+//
+// generate functions that returns random values
+//
 $myAutoItObfuscator->randomFunctions = true;
 
-// 
-//  generate autostarted random values
-// 
+//
+// generate autostarted random values
+//
 $myAutoItObfuscator->randomAutostarted = true;
 
-// 
-//  rename variable names to random string values
-// 
+//
+// change linear code execution flow to nonlinear version
+//
+$myAutoItObfuscator->mixCodeFlow = true;
+
+//
+// rename variable names to random string values
+//
 $myAutoItObfuscator->renameVariables = true;
 
-// 
-//  rename function names to random string values
-// 
+//
+// rename function names to random string values
+//
 $myAutoItObfuscator->renameFunctions = true;
 
-// 
-//  rename function names in function calls
-// 
+//
+// rename function names in function calls
+//
 $myAutoItObfuscator->renameFunctionCalls = true;
 
-// 
-//  resolve WinApi constants to numerical values
-// 
+
+//
+// resolve WinApi constants to numerical values
+//
 $myAutoItObfuscator->resolveConstants = true;
 
-// 
-//  encrypt numbers into arithmetic and boolean expressions
-// 
+//
+// encrypt numbers into arithmetic and boolean expressions
+//
 $myAutoItObfuscator->cryptNumbers = true;
 
-// 
-//  split strings into series of random sized substrings
-// 
+//
+// split strings into series of random sized substrings
+//
 $myAutoItObfuscator->splitStrings = true;
 
-// 
-//  modify strings using built-it AutoIt string functions
-// 
+//
+// modify strings using built-it AutoIt string functions
+//
 $myAutoItObfuscator->modifyStrings = true;
 
-// 
-//  encrypt strings using polymorphic encryption algorithms
-// 
+//
+// encrypt strings using polymorphic encryption algorithms
+//
 $myAutoItObfuscator->cryptStrings = true;
 
-// 
-//  insert ternary operators for numerical values
-// 
+//
+// insert ternary operators for numerical values
+//
 $myAutoItObfuscator->insertTernaryOperators = true;
 
 //
