@@ -912,7 +912,7 @@ $myAutoItObfuscator->randomAuostarted = true;
 //
 // change linear code execution flow to nonlinear version
 //
-$myAutoItObfuscator-&gt;mixCodeFlow = true;
+$myAutoItObfuscator->mixCodeFlow = true;
 
 //
 // rename variable names to random string values
