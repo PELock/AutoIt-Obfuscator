@@ -2,7 +2,7 @@
 /******************************************************************************
  * AutoIt Obfuscator WebApi interface
  *
- * Version        : v1.2
+ * Version        : v1.4
  * Language       : PHP
  * Author         : Bartosz Wójcik
  * Web page       : https://www.pelock.com
@@ -37,6 +37,11 @@ class AutoItObfuscator
 	 * @var bool generate random value characters
 	 */
 	public $randomCharacters = false;
+
+	/**
+	 * @var bool generate random anti regular expression values
+	 */
+	public $randomAntiRegex = false;
 
 	/**
 	 * @var bool generate arrays with random values
@@ -219,6 +224,7 @@ class AutoItObfuscator
 		//
 		if ($this->randomIntegers) $ParamsArray["random_bucket_integers"] = "1";
 		if ($this->randomCharacters) $ParamsArray["random_bucket_characters"] = "1";
+		if ($this->randomAntiRegex) $ParamsArray["random_bucket_anti_regex"] = "1";
 		if ($this->randomArrays) $ParamsArray["random_bucket_arrays"] = "1";
 		if ($this->randomArraysMultidimensional) $ParamsArray["random_bucket_arrays_multidimensional"] = "1";
 		if ($this->randomFunctions) $ParamsArray["random_bucket_functions"] = "1";

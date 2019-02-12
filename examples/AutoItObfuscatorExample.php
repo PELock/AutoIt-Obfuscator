@@ -5,7 +5,7 @@
  *
  * In this example we will obfuscate sample source with default options.
  *
- * Version        : v1.2
+ * Version        : v1.4
  * Language       : PHP
  * Author         : Bartosz Wójcik
  * Web page       : https://www.pelock.com
@@ -41,6 +41,11 @@ $myAutoItObfuscator->randomIntegers = true;
 // generate random value characters
 //
 $myAutoItObfuscator->randomCharacters = true;
+
+//
+// generate random anti regular expression values
+//
+$myAutoItObfuscator->randomAntiRegex = true;
 
 //
 // generate arrays with random values
