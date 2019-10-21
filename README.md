@@ -795,7 +795,7 @@ Online interface for the AutoIt Obfuscator is available at:
 
 https://www.pelock.com/autoit-obfuscator/
 
-##Windows GUI client and command line version
+## Windows GUI client and command line version
 
 AutoIt Obfuscator comes also with full GUI version for Windows:
 
