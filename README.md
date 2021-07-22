@@ -530,7 +530,7 @@ Installation package is available at https://packagist.org/packages/pelock/autoi
 
 #### Example of how to obfuscate AutoIt script with default options
 
-```autoit
+```php
 //
 // include AutoIt Obfuscator class
 //
@@ -593,7 +593,7 @@ else
 
 #### Example of how to obfuscate AutoIt script using customized obfuscation strategies
 
-```autoit
+```php
 //
 // include AutoIt Obfuscator class
 //
@@ -746,7 +746,7 @@ else
 
 #### Example of how to check the activation key status
 
-```autoit
+```php
 //
 // include AutoIt Obfuscator class
 //
