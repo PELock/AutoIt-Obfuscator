@@ -818,4 +818,7 @@ can be used to integrate obfuscation into your build process or any other
 batch operation.
 
 Bartosz Wójcik
-https://www.pelock.com
+
+* Visit my site at — https://www.pelock.com
+* Twitter — https://twitter.com/PELock
+* GitHub — https://github.com/PELock
