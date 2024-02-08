@@ -2,7 +2,7 @@
 /******************************************************************************
  * AutoIt Obfuscator WebApi interface
  *
- * Version        : v1.4
+ * Version        : v1.5
  * Language       : PHP
  * Author         : Bartosz Wójcik
  * Web page       : https://www.pelock.com
@@ -27,6 +27,26 @@ class AutoItObfuscator
 	 * @var bool should the source code be compressed
 	 */
 	public $enableCompression = false;
+
+	/**
+	 * @var bool detect debuggers attached to the application process
+	 */
+	public $antiDebug = false;
+
+	/**
+	 * @var bool detect popular virtual machines
+	 */
+	public $antiVM = false;
+
+	/**
+	 * @var bool detect sandboxes
+	 */
+	public $antiSandbox = false;
+
+	/**
+	 * @var bool detect CPU emulators
+	 */
+	public $antiEmulator = false;
 
 	/**
 	 * @var bool generate random integer values
@@ -218,6 +238,14 @@ class AutoItObfuscator
 		{
 			$ParamsArray["key"] = $this->_ApiKey;
 		}
+
+		//
+		// detections
+		//
+		if ($this->antiDebug) $ParamsArray["anti_debug"] = "1";
+		if ($this->antiVM) $ParamsArray["anti_vm"] = "1";
+		if ($this->antiSandbox) $ParamsArray["anti_sandbox"] = "1";
+		if ($this->antiEmulator) $ParamsArray["anti_emulator"] = "1";
 
 		//
 		// random bucket setup

@@ -5,7 +5,7 @@
  *
  * In this example we will obfuscate sample source with default options.
  *
- * Version        : v1.4
+ * Version        : v1.5
  * Language       : PHP
  * Author         : Bartosz Wójcik
  * Web page       : https://www.pelock.com
