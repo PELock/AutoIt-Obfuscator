@@ -1328,13 +1328,19 @@ https://www.pelock.com/autoit-obfuscator/
 
 ## Windows GUI client and command line version
 
-AutoIt Obfuscator comes also with full GUI version for Windows:
+#### AutoIt Obfuscator comes also with full GUI version for Windows:
 
-![AutoIt Obfuscator Windows Client](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-1-2-main.png)
+![AutoIt Obfuscator Windows Client](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-1-6-main.png)
 
-Obfuscation options:
+#### Obfuscation options:
 
-![AutoIt Obfuscator Options](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-1-2-options.png)
+![AutoIt Obfuscator Options](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-1-6-options.png)
+
+#### Anti-debug, Anti-VM, Anti-Sandbox & Anti CPU Emulator detections:
+
+![Anti-debug, Anti-VM, Anti-Sandbox & Anti CPU Emulator detections](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-1-6-anti-debugging-anti-vm-anti-sandbox-anti-cpu-emulator.png)
+
+## Download
 
 You can download it at:
 
@@ -1342,7 +1348,7 @@ https://www.pelock.com/products/autoit-obfuscator/download
 
 Installation package contains an additional command line interface:
 
-![AutoIt Obfuscator Windows Client](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-command-line-1-2.png)
+![AutoIt Obfuscator Windows Client](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-command-line-1-6.png)
  
 It is compatible with Windows (.NET) and Linux (Mono). Command line version
 can be used to integrate obfuscation into your build process or any other
