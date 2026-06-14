@@ -1354,8 +1354,20 @@ It is compatible with Windows (.NET) and Linux (Mono). Command line version
 can be used to integrate obfuscation into your build process or any other
 batch operation.
 
+## Integration with SciTE Script Editor
+
+I've added integration between AutoIt Obfuscator and the obfuscation workflow in
+AutoIt's default editor — **SciTE**.
+
+Just [install AutoIt Obfuscator](https://www.pelock.com/products/autoit-obfuscator/download) using the installer,
+and the editor configuration file at `%USERPROFILE%\SciTEUser.properties` will be updated automatically.
+
+This adds a new **Obfuscate** command to the editor's **Tools** menu, so you can obfuscate `*.au3` scripts with a single click.
+
+![AutoIt Obfuscator integration with SciTE Script Editor](https://www.pelock.com/img/en/products/autoit-obfuscator/autoit-obfuscator-scite-editor-integration.png)
+
 Bartosz Wójcik
 
 * Visit my site at — https://www.pelock.com
-* Twitter — https://twitter.com/PELock
+* X — https://x.com/PELock
 * GitHub — https://github.com/PELock
